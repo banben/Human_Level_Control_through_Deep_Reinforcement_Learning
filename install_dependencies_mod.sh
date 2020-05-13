@@ -9,6 +9,7 @@ TOPDIR=$PWD
 
 # Prefix:
 PREFIX=$PWD/torch
+export PREFIX=$PWD/torch
 echo "Installing Torch into: $PREFIX"
 
 if [[ `uname` != 'Linux' ]]; then
