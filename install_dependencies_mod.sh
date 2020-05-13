@@ -46,7 +46,7 @@ echo "==> Torch7's dependencies have been installed"
 git clone https://github.com/torch/distro.git ~/torch --recursive
 cd ~/torch; bash install-deps;
 ./install.sh
-
+source ~/.bashrc
 
 path_to_nvcc=$(which nvcc)
 if [ -x "$path_to_nvcc" ]
