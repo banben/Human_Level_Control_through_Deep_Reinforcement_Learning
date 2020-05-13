@@ -40,5 +40,5 @@ source ~/.bashrc
 最后就是运行了
 
 ```
-./run_cpu alien
+GPU_ID=0 ./run_gpu bowling
 ```
